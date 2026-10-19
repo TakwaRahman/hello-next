@@ -1,0 +1,12 @@
+import Banner from "@/Component/Banner";
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div>
+      <Banner>
+        Welcome To Web Story
+      </Banner>
+    </div>
+  )
+}
